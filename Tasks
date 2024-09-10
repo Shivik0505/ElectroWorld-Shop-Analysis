@@ -1,0 +1,107 @@
+# Sales Performance and Customer Insights Analysis
+
+This Power BI dashboard provides a detailed analysis of sales performance and customer
+insights based on a comprehensive dataset. The dataset encompasses crucial information such as
+customer details (CustomerID, FirstName, LastName, Email, Phone), address information
+(Address, City, State, PinCode), product details (ProductID, ProductName, Quantity, UnitPrice,
+TotalPrice), and order information (OrderDate).
+1. Stacked Column Chart: Sales Distribution by Product and Customer Explore the
+distribution of sales across various products and customers using the Stacked Column Chart.
+This visual breaks down the quantity sold for each product, stacked by customer, offering
+insights into both product popularity and individual customer spending patterns.
+2. Line Chart: Trends in Total Sales Over Time The Line Chart showcases trends in total
+sales over time, allowing for the identification of sales patterns and seasonal variations. Analyze
+how different products contribute to overall sales and identify trends that can inform strategic
+business decisions.
+3. Map: Geographic Sales Overview The Map provides a geographic overview of sales,
+allowing users to visualize sales distribution across different cities. Utilize tooltips to access
+detailed customer information, including contact details, when exploring sales in specific
+locations.
+4. Cards: Key Performance Indicators (KPIs) Overview The Cards section displays essential
+Key Performance Indicators, including Total Sales, Average Unit Price, Total Customers, and
+Total Orders. These KPIs offer a quick glance at overall business performance.
+5. Treemap: Sales Breakdown by State and Product The Treemap visualizes the distribution
+of sales across states and products. Explore the relative sizes of product categories within each
+state, gaining insights into regional sales preferences.
+6. Waterfall Chart: Sales Contribution Over Time The Waterfall Chart illustrates the
+contribution of each product to the total sales over time. Identify trends in product performance
+and understand the impact of specific products on overall sales growth.
+7. Slicers: Interactive Data Filtering Enhance interactivity using slicers for City, State,
+ProductName, and OrderDate. Easily filter and focus on specific subsets of data to perform
+targeted analyses.
+8. Table: Detailed Data Exploration The Table provides a comprehensive view of the dataset,
+displaying key information such as customer details, product information, quantities, prices, and
+order dates. Use the table for in-depth exploration and reference.
+9. Donut Chart: Product Contribution to Total Sales The Donut Chart offers a visually
+appealing representation of each product's contribution to the total sales. Quickly identify the
+most significant contributors and their proportional impact on overall revenue.
+10. Bubble Chart: Quantity, Unit Price, and Total Sales Relationships The Bubble Chart
+explores the relationships between quantity, unit price, and total sales for different products.
+Visualize how product attributes influence sales performance and identify potential areas for
+optimization.
+
+Tasks
+
+1. Stacked Column Chart:
+▪ Visualization Type: Stacked Column Chart
+▪ X-Axis: ProductName
+▪ Y-Axis: Quantity
+▪ Legend: CustomerID
+
+2. Line Chart:
+▪ Visualization Type: Line Chart
+▪ X-Axis: OrderDate
+▪ Y-Axis: TotalPrice
+▪ Legend: ProductName
+
+3. Map:
+▪ Visualization Type: Map
+▪ Location: City
+▪ Legend: TotalPrice
+▪ Tooltip: CustomerID, FirstName, LastName, Email, Phone, Address,
+State, PinCode
+
+4. Cards:
+▪ Visualization Type: Card
+▪ Display: Total Sales, Average Unit Price, Total Customers, Total Orders
+
+5. Treemap:
+▪ Visualization Type: Treemap
+▪ Values: TotalPrice
+▪ Categories: State, ProductName
+
+6. Waterfall Chart:
+▪ Visualization Type: Waterfall Chart
+▪ Category: OrderDate
+▪ Values: TotalPrice
+▪ Legend: ProductName
+
+7. Slicers:
+o Create slicers for filtering data based on:
+▪ City
+▪ State
+▪ ProductName
+▪ OrderDate
+
+8. Table:
+▪ Visualization Type: Table
+▪ Display relevant columns: CustomerID, FirstName, LastName, Email,
+Phone, Address, City, State, PinCode, ProductID, ProductName, Quantity,
+UnitPrice, TotalPrice, OrderDate
+
+9. Donut Chart:
+▪ Visualization Type: Donut Chart
+▪ Values: TotalPrice
+▪ Legend: ProductName
+▪ Use this chart to represent the contribution of each product to the total
+sales in a visually appealing donut chart format.
+
+10. Bubble Chart:
+• Visualization Type: Bubble Chart
+• X-Axis: Quantity
+• Y-Axis: UnitPrice
+• Size: TotalPrice
+• Color Saturation: TotalPrice
+• Tooltip: ProductName, Quantity, UnitPrice, TotalPrice
+• This chart helps you explore the relationships between quantity, unit price,
+and total sales for different products.
